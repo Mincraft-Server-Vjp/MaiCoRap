@@ -1,0 +1,2 @@
+Hello Minecraft Server!
+CI/CD deployment successful.
