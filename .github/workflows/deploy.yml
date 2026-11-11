@@ -1,0 +1,33 @@
+
+name: Minecraft File Deploy
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "deploy/**"
+      - ".github/workflows/deploy.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  deploy:
+    runs-on: [self-hosted, Linux, X64, minecraft-deploy]
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Sync files to server
+        run: |
+          set -euo pipefail
+
+          SOURCE="$GITHUB_WORKSPACE/deploy/"
+          TARGET="/home/golden-boy/minecraft-server/deploy-inbox/"
+
+          mkdir -p "$TARGET"
+          rsync -rtv "$SOURCE" "$TARGET"
+
+          echo "Files deployed successfully!"
