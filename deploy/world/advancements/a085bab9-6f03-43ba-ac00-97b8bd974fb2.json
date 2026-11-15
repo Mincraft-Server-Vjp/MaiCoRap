@@ -1,16 +1,15 @@
 {
   "minecraft:recipes/decorations/crafting_table": {
     "criteria": {
-      "unlock_right_away": "2026-11-14 23:12:05 +0700"
+      "unlock_right_away": "2026-11-15 23:24:00 +0700"
     },
     "done": true
   },
-  "minecraft:adventure/adventuring_time": {
+  "cobbleverse:root": {
     "criteria": {
-      "minecraft:stony_peaks": "2026-11-14 23:12:17 +0700",
-      "minecraft:forest": "2026-11-14 23:12:06 +0700"
+      "cobbleverse_starts_now": "2026-11-15 23:24:59 +0700"
     },
-    "done": false
+    "done": true
   },
   "DataVersion": 3955
 }
