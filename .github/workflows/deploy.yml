@@ -19,6 +19,14 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          lfs: true
+          persist-credentials: false
+      - name: Verify Git LFS
+        shell: bash
+        run: |
+          git lfs ls-files
+          git lfs fsck
 
       - name: Sync files to server
         run: |
