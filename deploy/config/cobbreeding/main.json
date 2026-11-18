@@ -29,10 +29,12 @@
     "galarian",
     "hisuian",
     "paldean",
+    "valencian",
     "bull_breed",
     "tatsugiri_texture",
     "whiscash_nero",
-    "wooper_heart"
+    "wooper_heart",
+    "wolf_form"
   ],
   "maxNumberOfActivatedPasturePerPlayer": -1,
   "pastureInventorySize": 3,

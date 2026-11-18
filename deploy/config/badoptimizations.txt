@@ -59,7 +59,7 @@ enable_remove_tutorial_if_not_demo: true
 # Whether BadOptimizations <version> should be added onto
 # the left text of the F3 menu.
 # In 1.21.9+, enabling this puts it into the F3 customizer screen.
-show_f3_text: true
+show_f3_text: false
 
 # Some config options will be force-disabled if certain mods are present
 # due to incompatibilities (e.g. entity rendering caching
@@ -75,7 +75,7 @@ ignore_mod_cache_hooks: false
 
 # Whether to log the entire config into console when booting up.
 # If you plan on reporting an issue, please keep this on.
-log_config: true
+log_config: false
 
 # Do not change this
 config_version: 6

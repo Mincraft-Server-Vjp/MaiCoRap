@@ -5,8 +5,10 @@
     "vanilla",
     "fabric",
     "cobbreeding:pasturefix",
+    "musicnotification:vanillabackport",
     "highlight:highlight_extended",
-    "betterbeds:fancyconnectedbeds",
+    "betterbeds:fancyconnectedbeds",    
+    "file/Better Leaves.zip",
     "continuity:default",
     "continuity:glass_pane_culling_fix",
     "file/Low Fire.zip",
@@ -32,19 +34,13 @@
     "cobblemon:regionbiasforms",
     "file/ATMxMSD RP.zip",
     "file/FullyHisuianStarters RP.zip",
-    "file/EeveelutionsReimagined RP.zip",
     "file/OJsAnimations RP.zip",
     "file/PlanetaCobblemon RP.zip",
-    "file/GlitchDex RP.zip",
     "file/CavsCobbleMons RP.zip",
-    "file/LackingMons RP.zip",
-    "file/TDmon RP.zip",
-    "file/MysticMons RP.zip",
     "file/MundialMons RP.zip",
     "file/MissingMons RP.zip",
     "file/HydroReanimodel RP.zip",
     "file/Pokemans RP.zip",
-    "file/CobbleMotion RP.zip",
     "file/E19 Cobblemon Minimap Icons.zip",
     "file/COBBLEVERSE Soundtrack.zip",
     "file/COBBLEVERSE RCTmod RP.zip",
@@ -53,7 +49,7 @@
   "pack_overrides": {
     "file/COBBLEVERSE RP.zip": {
       "title": "\"§e§lCOBBLEVERSE\"",
-      "description": "\"§a✔ Main Resource Pack\n§f© §3§cLUMY§bVERSE §f[v24]\"",
+      "description": "\"§a✔ Main Resource Pack\n§f© §3§cLUMY§bVERSE §f[v25]\"",
       "default_position": "TOP"
     },
     "file/COBBLEVERSE RCTmod RP.zip": {
@@ -68,49 +64,27 @@
       "title": "\"§e§lE19 - Minimap Icons\"",
       "description": "\"§a✔ Pokémon for Xaero's Minimap\n§f© §3Emery319\""
     },
-    "file/CobbleMotion RP.zip": {
-      "title": "\"§e§lCobbleMotion\"",
-      "description": "\"§a✔ Adds Animations to Pokémon\n§f© §3Lenka\""
-    },
     "file/Pokemans RP.zip": {
       "title": "\"§e§lPokemans\"",
       "description": "\"§a✔ Adds 5 Pokémon Models\n§f© §3Tontra & Pandalistics\""
     },
     "file/HydroReanimodel RP.zip": {
       "title": "\"§e§lHydro Reanimodel\"",
-      "description": "\"§a✔ 15 Pokémon Re-Animated\n§f© §3BlaziumHydro\"",
+      "description": "\"§a✔ 10+ Animated Pokémon\n§f© §3BlaziumHydro\"",
       "force_compatible": true
     },
     "file/MissingMons RP.zip": {
       "title": "\"§e§lMissingMons\"",
-      "description": "\"§a✔ Adds 11 Animated Models\n§f© §3RedRibbon\""
+      "description": "\"§a✔ Adds 14 Animated Models\n§f© §3RedRibbon\""
     },
     "file/MundialMons RP.zip": {
       "title": "\"§e§lMundialMons\"",
-      "description": "\"§a✔ Adds 20 Animated Models\n§f© §3AlexioCraft\"",
-      "force_compatible": true
-    },
-    "file/MysticMons RP.zip": {
-      "title": "\"§e§lMysticMons\"",
-      "description": "\"§a✔ Adds 3 Pokémon Models\n§f© §3iMystxc\""
-    },
-    "file/TDmon RP.zip": {
-      "title": "\"§e§lTDmon\"",
-      "description": "\"§a✔ Adds 9 Animated Models\n§f© §3DiEn\""
-    },
-    "file/LackingMons RP.zip": {
-      "title": "\"§e§lLackingMons\"",
-      "description": "\"§a✔ Adds Pawmi, Pawmo & Pawmot\n§f© §3Beezy & IZetyXX\"",
+      "description": "\"§a✔ Adds 12 Animated Models\n§f© §3AlexioCraft\"",
       "force_compatible": true
     },
     "file/CavsCobbleMons RP.zip": {
       "title": "\"§e§lCavsCobblemon\"",
-      "description": "\"§a✔ Adds 8 Pokémon Models\n§f© §3Xcavalier\""
-    },
-    "file/GlitchDex RP.zip": {
-      "title": "\"§e§lGlitchDex\"",
-      "description": "\"§a✔ Adds Croagunk & Toxicroak\n§f© §3Glitch Ratt & Ozzy\"",
-      "force_compatible": true
+      "description": "\"§a✔ Adds 7 Pokémon Models\n§f© §3Xcavalier\""
     },
     "file/PlanetaCobblemon RP.zip": {
       "title": "\"§e§lPlaneta Cobblemon Pack\"",
@@ -121,10 +95,6 @@
       "title": "\"§e§lOJ's Animations\"",
       "description": "\"§a✔ Adds Animations to Pokémon\n§f© §3Ojcastillo\""
     },
-    "file/EeveelutionsReimagined RP.zip": {
-      "title": "\"§e§lEeveelutions Reimagined\"",
-      "description": "\"§a✔ Animations for Eeeveelutions\n§f© §3SK4N\""
-    },
     "file/FullyHisuianStarters RP.zip": {
       "title": "\"§e§lFully Hisuian Starters\"",
       "description": "\"§a✔ Look as their Final Evolution\n§f© §3SwordEnd\"",
@@ -132,7 +102,7 @@
     },
     "file/ATMxMSD RP.zip": {
       "title": "\"§e§lATM x MSD\"",
-      "description": "\"§a✔ Adds 130+ Pokémon\n§f© §3Lvnatic and many others\""
+      "description": "\"§a✔ Adds hundreds of Pokémon\n§f© §3Lvnatic and many others\""
     },
     "cobblemon:regionbiasforms": {
       "title": "\"§e§lRegion Bias Forms\"",
@@ -199,11 +169,15 @@
     },
     "file/PokeRods3D.zip": {
       "title": "\"§e§l3D Poké Rods\"",
-      "description": "\"§a✔ 3D models for Poké Rods\n§f© §3Akera099\""
+      "description": "\"§a✔ 3D Models for Poké Rods\n§f© §3Akera099\""
     },
     "file/Classic Grass.zip": {
       "title": "\"§e§lClassic Grass\"",
       "description": "\"§a✔ Pokémon Grass Textures\n§f© §3WizzStar\""
+    },
+    "file/Better Leaves.zip": {
+      "title": "\"§e§lBetter Leaves\"",
+      "description": "\"§a✔ Bushier & Natural Leaves\n§f© §3Motschen\""
     },
     "cobbreeding:coloredeggs": {
       "title": "\"§e§lColored Eggs\"",
@@ -229,15 +203,15 @@
     },
     "continuity:default": {
       "title": "\"§e§lConnected Textures\"",
-      "description": "\"§a✔ Glass/Sandstone/Bookshelf\n§f© §3Pepper_Bell §7(built-in)\""
+      "description": "\"§a✔ Seamless Block Textures\n§f© §3Pepper_Bell §7(built-in)\""
     },
     "betterbeds:fancyconnectedbeds": {
       "title": "\"§e§lFancy Connected Beds\"",
-      "description": "\"§a✔ Beds look Fancier\n§f© §3Motschen §7(built-in)  \""
+      "description": "\"§a✔ Beds look Fancier\n§f© §3Motschen §7(built-in)\""
     },
     "highlight:highlight_extended": {
       "title": "\"§e§lHighlight Extended\"",
-      "description": "\"§a✔ Fixed Blocks Hitboxes\n§f© §3Team Resourceful §7(built-in)\"",
+      "description": "\"§a✔ Improved Block Hitbox\n§f© §3Team Resourceful §7(built-in)\"",
       "force_compatible": true
     },
     "cobbreeding:pasturefix": {
@@ -290,20 +264,9 @@
       "description": "\"§fCredits: §6§lHydro Reanimodel\n§f© §3BlaziumHydro\"",
       "hidden": true
     },
-    "file/z DO NOT ENABLE z [LackingMons - Credits Only].zip": {
-      "title": "\"§4✖ §c§lDO NOT ENABLE\"",
-      "description": "\"§fCredits: §6§lLackingMons\n§f© §3Beezy & IZetyXX\"",
-      "force_compatible": true,
-      "hidden": true
-    },
     "file/z DO NOT ENABLE z [MissingMons - Credits Only].zip": {
       "title": "\"§4✖ §c§lDO NOT ENABLE\"",
       "description": "\"§fCredits: §6§lMissingMons\n§f© §3RedRibbon\"",
-      "hidden": true
-    },
-    "file/z DO NOT ENABLE z [MysticMons - Credits Only].zip": {
-      "title": "\"§4✖ §c§lDO NOT ENABLE\"",
-      "description": "\"§fCredits: §6§lMysticMons\n§f© §3iMystxc\"",
       "hidden": true
     },
     "file/z DO NOT ENABLE z [PlanetaCobblemon - Credits Only].zip": {
@@ -316,19 +279,9 @@
       "description": "\"§fCredits: §6§lPokemans\n§f© §3Tontra & Pandalistics\"",
       "hidden": true
     },
-    "file/z DO NOT ENABLE z [GlitchDex - Credits Only].zip": {
-      "title": "\"§4✖ §c§lDO NOT ENABLE\"",
-      "description": "\"§fCredits: §6§lGlitchDex\n§f© §3Glitch Ratt\"",
-      "hidden": true
-    },    
     "file/z DO NOT ENABLE z [MundialMons - Credits Only].zip": {
       "title": "\"§4✖ §c§lDO NOT ENABLE\"",
       "description": "\"§fCredits: §6§lMundialMons\n§f© §3AlexioCraft\"",
-      "hidden": true
-    },
-    "file/z DO NOT ENABLE z [OJsAnimations - Credits Only].zip": {
-      "title": "\"§4✖ §c§lDO NOT ENABLE\"",
-      "description": "\"§fCredits: §6§lOJ's Animations\n§f© §3Ojcastillo\"",
       "hidden": true
     },
     "file/z DO NOT ENABLE z [Terralith - Credits Only].zip": {
@@ -336,15 +289,16 @@
       "description": "\"§fCredits: §6§lTerralith\n§f© §3Stardust Labs\"",
       "hidden": true
     },
-    "file/z DO NOT ENABLE z [TDmon - Credits Only].zip": {
-      "title": "\"§4✖ §c§lDO NOT ENABLE\"",
-      "description": "\"§fCredits: §6§lTDMon\n§f© §3DiEn\"",
-      "hidden": true
-    },
     "carved_wood:recarved": {
       "hidden": true
     },
+    "musicnotification:vanillabackport": {
+      "hidden": true
+    },
     "vanillabackport:freshly_animated_legacy": {
+      "hidden": true
+    },
+    "vanillabackport:backported_ost": {
       "hidden": true
     }
   },

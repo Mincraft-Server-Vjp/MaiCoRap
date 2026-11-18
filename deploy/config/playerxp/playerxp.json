@@ -5,7 +5,7 @@
   "xpFromPlayerBattles": true,
   "luckyEggXpBoost": true,
   "luckyEggXpMultiplier": 1.5,
-  "shouldExpShare": true,
+  "shouldExpShare": false,
   "expShareSize": 1,
-  "expShareRadius": 35.0
+  "expShareRadius": 1.0
 }

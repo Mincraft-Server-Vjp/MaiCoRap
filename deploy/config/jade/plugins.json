@@ -86,6 +86,12 @@
     "block_properties": false,
     "mod_name": true
   },
+  "beautify": {
+    "lamp_jar.glowstone_dust": true,
+    "trellis.pot_plant": true,
+    "hanging_pot.pot_flower": true,
+    "multi_flower_pot.plants": true
+  },
   "waystones": {
     "waystone": true
   },

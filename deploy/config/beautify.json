@@ -1,7 +1,9 @@
 {
   "blinds": {
     "searchRadius": 8,
-    "opensFromRoot": true
+    "opensFromRoot": true,
+    "redstone": true,
+    "interactWhenPowered": true
   },
   "houses": {
     "botanistSpawnWeight": 2

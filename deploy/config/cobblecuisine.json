@@ -1,27 +1,109 @@
 {
-  "CONFIG_VERSION_INTERNAL": 3,
+  "globalSettings": {
+    "classicMealPowers": false,
+    "allowMultipleActiveMeals": true,
+    "maxActiveMeals": 4,
+    "mixerRequiresRedstone": true,
+    "fullnessItems": {
+      "included": [
+        "#cobblecuisine:beans",
+        "#cobblecuisine:poke_puffs",
+        "#cobblecuisine:malasadas",
+        "#cobblecuisine:regular_shakes",
+        "#cobblecuisine:deluxe_shakes"
+      ],
+      "excluded": []
+    },
+    "dropRates": {
+      "beanSeedsDropRate": 0.1,
+      "beanDropRate": 0.25
+    }
+  },
+  "classicSettings": {
+    "typeMultiplier": 5.0,
+    "typeNonMatchMultiplier": 0.5,
+    "eggGroupMultiplier": 5.0,
+    "eggGroupNonMatchMultiplier": 0.5,
+    "herdFrequencyMultiplier": 5.0,
+    "herdFrequencyNonHerdMultiplier": 0.5,
+    "teraChance": 0.75,
+    "natureChancePerMint": 0.375,
+    "hiddenAbilityChancePerSauce": 0.333,
+    "durationSeasoningSeconds": 150,
+    "catchMultiplier": 2.0,
+    "expMultiplier": 2.0,
+    "shinyMultiplier": 24.0,
+    "ivMinimum": 15,
+    "ivMaximum": 31,
+    "tinyChance": 0.7,
+    "giantChance": 0.7,
+    "alphaIncreaseChance": 0.2,
+    "alphaDecreaseChance": 0.8,
+    "pokePuffFriendship": 6,
+    "malasadaFriendship": 12,
+    "pokePuffHealing": 20,
+    "malasadaHealing": 20
+  },
   "boostSettings": {
     "effectDistanceBlocks": 40.0,
-    "expBoostMultiplier": 2.0,
-    "catchRateMultiplier": 2.0,
-    "shinyBoostMultiplier": 48.0,
-    "teraBoostChance": 0.95,
-    "natureBoostChance": 0.95,
-    "scaleMinValue": 0.9,
-    "scaleMaxValue": 1.1,
-    "ivMinValue": 20,
+    "expBaseMultiplier": 2.5,
+    "expSeasoningMultiplier": 0.5,
+    "catchRateMultiplier": 1.5,
+    "catchBaseMultiplier": 1.5,
+    "catchSeasoningMultiplier": 0.5,
+    "shinyBaseMultiplier": 24.0,
+    "shinySeasoningMultiplier": 2.5,
+    "teraBaseChance": 1.0,
+    "teraSeasoningChance": 0.5,
+    "natureSeasoningChance": 0.375,
+    "hiddenAbilitySeasoningChance": 0.333,
+    "tinyBaseChance": 1.0,
+    "tinySeasoningChance": 0.5,
+    "giantBaseChance": 1.0,
+    "giantSeasoningChance": 0.5,
+    "ivBaseMinimum": 10,
+    "ivSeasoningMinimum": 4,
+    "ivBaseMaximum": 25,
+    "ivSeasoningMaximum": 8,
     "ivMaxValue": 31,
-    "haBoostChance": 2.0
+    "shakeEvPower": 0
+  },
+  "herdSettings": {
+    "herdFrequency": {
+      "spawnWeightMultiplier": 2.5,
+      "seasoningWeightMultiplier": 0.5,
+      "nonWeightMultiplier": 0.1
+    },
+    "alphaIncreaseBaseChance": 0.25,
+    "alphaIncreaseSeasoningChance": 0.1,
+    "alphaDecreaseBaseChance": 0.25,
+    "alphaDecreaseSeasoningChance": 0.1
   },
   "itemSettings": {
     "beanFriendship": 1,
-    "pokepuffFriendship": 6,
-    "malasadaFriendship": 12,
-    "lowShakeEv": 2,
-    "mediumShakeEv": 4,
-    "highShakeEv": 8
+    "pokePuffFriendship": {
+      "amount": 6.0,
+      "baseMultiplier": 1.0,
+      "perSeasoningMultiplier": 0.25
+    },
+    "malasadaFriendship": {
+      "amount": 12.0,
+      "baseMultiplier": 1.0,
+      "perSeasoningMultiplier": 0.25
+    },
+    "pokePuffHealing": {
+      "amount": 20.0,
+      "baseMultiplier": 1.0,
+      "perSeasoningMultiplier": 0.25
+    },
+    "malasadaHealing": {
+      "amount": 20.0,
+      "baseMultiplier": 1.0,
+      "perSeasoningMultiplier": 0.25
+    }
   },
   "effectDuration": {
+    "satiatedEffectDuration": 6000,
     "shinyBoostEffectDuration": 3000,
     "expBoostEffectDuration": 6000,
     "catchRateEffectDuration": 6000,
@@ -32,141 +114,219 @@
     "statBoostEffectDuration": 6000,
     "yieldBoostEffectDuration": 6000,
     "scaleBoostEffectDuration": 6000,
-    "dubiousFoodEffectDuration": 6000
+    "dubiousFoodEffectDuration": 6000,
+    "durationSeasoningSeconds": 180
   },
-  "dropRates": {
-    "beanSeedsDropRate": 0.1,
-    "galaricaNutDropRate": 0.25,
-    "beanDropRate": 0.25,
-    "torchflowerDropRate": 0.25,
-    "torchflowerSeedsDropRate": 0.25
+  "mealStrengths": {
+    "yield": {
+      "direct": 2.75,
+      "seasoning": 1.25,
+      "cap": 5.0
+    },
+    "iv": {
+      "direct": 2.75,
+      "seasoning": 1.25,
+      "cap": 5.0
+    },
+    "shiny": {
+      "direct": 5.0,
+      "seasoning": 1.5,
+      "cap": 8.0
+    },
+    "catchRate": {
+      "direct": 2.75,
+      "seasoning": 1.25,
+      "cap": 5.0
+    },
+    "experience": {
+      "direct": 2.75,
+      "seasoning": 1.25,
+      "cap": 5.0
+    },
+    "dubious": {
+      "direct": 2.75,
+      "seasoning": 1.25,
+      "cap": 5.0
+    }
   },
   "typeMultipliers": {
     "bug": {
-      "weightMultiplier": 5.0,
+      "spawnWeightMultiplier": 15.0,
+      "seasoningWeightMultiplier": 2.5,
       "nonWeightMultiplier": 0.1
     },
     "normal": {
-      "weightMultiplier": 5.0,
+      "spawnWeightMultiplier": 15.0,
+      "seasoningWeightMultiplier": 2.5,
       "nonWeightMultiplier": 0.1
     },
     "fire": {
-      "weightMultiplier": 5.0,
+      "spawnWeightMultiplier": 15.0,
+      "seasoningWeightMultiplier": 2.5,
       "nonWeightMultiplier": 0.1
     },
     "water": {
-      "weightMultiplier": 5.0,
+      "spawnWeightMultiplier": 15.0,
+      "seasoningWeightMultiplier": 2.5,
       "nonWeightMultiplier": 0.1
     },
     "electric": {
-      "weightMultiplier": 5.0,
+      "spawnWeightMultiplier": 15.0,
+      "seasoningWeightMultiplier": 2.5,
       "nonWeightMultiplier": 0.1
     },
     "grass": {
-      "weightMultiplier": 5.0,
+      "spawnWeightMultiplier": 15.0,
+      "seasoningWeightMultiplier": 2.5,
       "nonWeightMultiplier": 0.1
     },
     "ice": {
-      "weightMultiplier": 5.0,
+      "spawnWeightMultiplier": 15.0,
+      "seasoningWeightMultiplier": 2.5,
       "nonWeightMultiplier": 0.1
     },
     "fighting": {
-      "weightMultiplier": 5.0,
+      "spawnWeightMultiplier": 15.0,
+      "seasoningWeightMultiplier": 2.5,
       "nonWeightMultiplier": 0.1
     },
     "poison": {
-      "weightMultiplier": 5.0,
+      "spawnWeightMultiplier": 15.0,
+      "seasoningWeightMultiplier": 2.5,
       "nonWeightMultiplier": 0.1
     },
     "ground": {
-      "weightMultiplier": 5.0,
+      "spawnWeightMultiplier": 15.0,
+      "seasoningWeightMultiplier": 2.5,
       "nonWeightMultiplier": 0.1
     },
     "flying": {
-      "weightMultiplier": 5.0,
+      "spawnWeightMultiplier": 15.0,
+      "seasoningWeightMultiplier": 2.5,
       "nonWeightMultiplier": 0.1
     },
     "psychic": {
-      "weightMultiplier": 5.0,
+      "spawnWeightMultiplier": 15.0,
+      "seasoningWeightMultiplier": 2.5,
       "nonWeightMultiplier": 0.1
     },
     "rock": {
-      "weightMultiplier": 5.0,
+      "spawnWeightMultiplier": 15.0,
+      "seasoningWeightMultiplier": 2.5,
       "nonWeightMultiplier": 0.1
     },
     "ghost": {
-      "weightMultiplier": 5.0,
+      "spawnWeightMultiplier": 15.0,
+      "seasoningWeightMultiplier": 2.5,
       "nonWeightMultiplier": 0.1
     },
     "dragon": {
-      "weightMultiplier": 5.0,
+      "spawnWeightMultiplier": 15.0,
+      "seasoningWeightMultiplier": 2.5,
       "nonWeightMultiplier": 0.1
     },
     "steel": {
-      "weightMultiplier": 5.0,
+      "spawnWeightMultiplier": 15.0,
+      "seasoningWeightMultiplier": 2.5,
       "nonWeightMultiplier": 0.1
     },
     "dark": {
-      "weightMultiplier": 5.0,
+      "spawnWeightMultiplier": 15.0,
+      "seasoningWeightMultiplier": 2.5,
       "nonWeightMultiplier": 0.1
     },
     "fairy": {
-      "weightMultiplier": 5.0,
+      "spawnWeightMultiplier": 15.0,
+      "seasoningWeightMultiplier": 2.5,
       "nonWeightMultiplier": 0.1
     }
   },
   "eggGroupMultipliers": {
     "amorphous": {
-      "weightMultiplier": 5.0,
+      "spawnWeightMultiplier": 15.0,
+      "seasoningWeightMultiplier": 2.5,
       "nonWeightMultiplier": 0.1
     },
     "fairy": {
-      "weightMultiplier": 5.0,
+      "spawnWeightMultiplier": 15.0,
+      "seasoningWeightMultiplier": 2.5,
       "nonWeightMultiplier": 0.1
     },
     "bug": {
-      "weightMultiplier": 5.0,
+      "spawnWeightMultiplier": 15.0,
+      "seasoningWeightMultiplier": 2.5,
       "nonWeightMultiplier": 0.1
     },
     "dragon": {
-      "weightMultiplier": 5.0,
+      "spawnWeightMultiplier": 15.0,
+      "seasoningWeightMultiplier": 2.5,
       "nonWeightMultiplier": 0.1
     },
     "field": {
-      "weightMultiplier": 5.0,
+      "spawnWeightMultiplier": 15.0,
+      "seasoningWeightMultiplier": 2.5,
       "nonWeightMultiplier": 0.1
     },
     "flying": {
-      "weightMultiplier": 5.0,
+      "spawnWeightMultiplier": 15.0,
+      "seasoningWeightMultiplier": 2.5,
       "nonWeightMultiplier": 0.1
     },
     "grass": {
-      "weightMultiplier": 5.0,
+      "spawnWeightMultiplier": 15.0,
+      "seasoningWeightMultiplier": 2.5,
       "nonWeightMultiplier": 0.1
     },
     "humanLike": {
-      "weightMultiplier": 5.0,
+      "spawnWeightMultiplier": 15.0,
+      "seasoningWeightMultiplier": 2.5,
       "nonWeightMultiplier": 0.1
     },
     "mineral": {
-      "weightMultiplier": 5.0,
+      "spawnWeightMultiplier": 15.0,
+      "seasoningWeightMultiplier": 2.5,
       "nonWeightMultiplier": 0.1
     },
     "monster": {
-      "weightMultiplier": 5.0,
+      "spawnWeightMultiplier": 15.0,
+      "seasoningWeightMultiplier": 2.5,
       "nonWeightMultiplier": 0.1
     },
     "undiscovered": {
-      "weightMultiplier": 5.0,
+      "spawnWeightMultiplier": 15.0,
+      "seasoningWeightMultiplier": 2.5,
       "nonWeightMultiplier": 0.1
     },
     "water1": {
-      "weightMultiplier": 5.0,
+      "spawnWeightMultiplier": 15.0,
+      "seasoningWeightMultiplier": 2.5,
       "nonWeightMultiplier": 0.1
     },
     "water23": {
-      "weightMultiplier": 5.0,
+      "spawnWeightMultiplier": 15.0,
+      "seasoningWeightMultiplier": 2.5,
       "nonWeightMultiplier": 0.1
     }
-  }
+  },
+  "yieldMultipliers": {
+    "hp": {
+      "seasoningWeightMultiplier": 2.5
+    },
+    "attack": {
+      "seasoningWeightMultiplier": 2.5
+    },
+    "defence": {
+      "seasoningWeightMultiplier": 2.5
+    },
+    "specialAttack": {
+      "seasoningWeightMultiplier": 2.5
+    },
+    "specialDefence": {
+      "seasoningWeightMultiplier": 2.5
+    },
+    "speed": {
+      "seasoningWeightMultiplier": 2.5
+    }
+  },
+  "CONFIG_VERSION_INTERNAL": 15
 }
