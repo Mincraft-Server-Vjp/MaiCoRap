@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../../../../data/mods/cobblemon/rulesets.ts"],
+  "sourcesContent": ["export const Rulesets: {[k: string]: ModdedFormatData} = {\n\twildalpha: {\n\t\teffectType: 'Rule',\n\t\tname: 'Wild Alpha',\n\t\tdesc: \"Cobblemon Wild Alpha rule.\",\n\t\tonBegin() { this.add('rule', 'Wild Alpha: The first Pok\u00E9mon on the opposing side receives an alpha boost.'); },\n\t\tonSwitchIn(pokemon) {\n\t\t\tif (pokemon === this.sides[1].active[0])\n\t\t\t\tpokemon.addVolatile('alphaboost');\n\t\t},\n\t},\n};"],
+  "mappings": ";;;;;;;;;;;;;;;;;;AAAA;AAAA;AAAA;AAAA;AAAA;AAAO,MAAM,WAA4C;AAAA,EACxD,WAAW;AAAA,IACV,YAAY;AAAA,IACZ,MAAM;AAAA,IACN,MAAM;AAAA,IACN,UAAU;AAAE,WAAK,IAAI,QAAQ,gFAA6E;AAAA,IAAG;AAAA,IAC7G,WAAW,SAAS;AACnB,UAAI,YAAY,KAAK,MAAM,CAAC,EAAE,OAAO,CAAC;AACrC,gBAAQ,YAAY,YAAY;AAAA,IAClC;AAAA,EACD;AACD;",
+  "names": []
+}

@@ -18,10 +18,10 @@ version = 3
 # 
 defaultGlobalExecutorParallelismExpression = "default"
 # ================================================================
-# (Default: 1) Configures the parallelism of global executor
+# (Default: 4) Configures the parallelism of global executor
 globalExecutorParallelism = "default"
 # ================================================================
-# (Default: LOW) Sets the thread priority preset for worker threads
+# (Default: BELOW_NORMAL) Sets the thread priority preset for worker threads
 # 
 # Available presets:
 # - UNSET: do not touch any thread priority settings, restores legacy behavior
@@ -73,26 +73,9 @@ threadPoolPriorityPreset = "default"
 	# 
 	enforceSafeWorldRandomAccess = "default"
 
-	[clientSideConfig.modifyMaxVDConfig]
-		# ================================================================
-		# (Default: true) Whether to modify maximum view distance
-		enabled = "default"
-		# ================================================================
-		# (Default: 32) Max render distance allowed in game options
-		maxViewDistance = "default"
-		# ================================================================
-		# (Default: true) Enable client-side support for extended render distance protocol (c2me:ext_render_distance_v1)
-		# This allows requesting render distances higher than 127 chunks from the server
-		# 
-		# Requires Fabric API (currently available)
-		# 
-		# Note: The server must advertise support this protocol for this to work
-		# 
-		enableExtRenderDistanceProtocol = "default"
-
 [noTickViewDistance]
 	# ================================================================
-	# (Default: 3) No-tick view distance max concurrent chunk loads 
+	# (Default: 12) No-tick view distance max concurrent chunk loads 
 	#  Lower this for a better latency and higher this for a faster loading
 	maxConcurrentChunkLoads = "default"
 	# ================================================================
